@@ -15,8 +15,8 @@ The input to SynerGNet is graph representation of synergy instances. Each input 
 
 The source code of graph reduction and format of node tables and edge tables are provided in the repository https://github.com/MengLiu90/Two_set_graph_reduction_for_SynerGNet.
 
-The reduced graphs (represented as node tables and edge tables) are further converted into a hierarchical format for further processing in the SynerGNet. ```./Dataset/Input_data/????``` provides an example of the input graph to SynerGNet.
-```./Dataset/Input_data/????``` provides the code to create the .h5 file from node table and edges table.
+The reduced graphs (represented as node tables and edge tables) are further converted into a hierarchical format for further processing in the SynerGNet. ```./Dataset/Input_data/22RV1_CIDs15951529_CIDs54751698.h5``` provides an example of the input graph to SynerGNet.
+```./Dataset/h5py_data.py``` provides the code to create the .h5 file from node table and edges table.
   
 ## Prediction using the trained model
 
