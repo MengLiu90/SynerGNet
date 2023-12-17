@@ -8,7 +8,7 @@ SynerGNet is a machine learning tool to predict synergy effects of anti-cancer d
 5. pandas 1.1.3
 6. CUDA 11.1
 ## Data preparation
-The input to SynerGNet is graph representation of synergy instances. Each input graph is created throught the following procedure:
+The input to SynerGNet is graph representation of synergy instances. Each input graph is created through the following procedure:
 
 1. Create full-size graph by mapping gene expression, CNV, mutation, GO terms and drug-protein association score onto PPI network. Each graph is represented using a node table and an edge table.
 2. Knowledge-based graph reduction to increase the topology diversity and reduce computaion burden.
