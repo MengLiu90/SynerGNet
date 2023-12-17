@@ -19,7 +19,9 @@ The reduced graphs (represented as node tables and edge tables) are further conv
 ```./Dataset/h5py_data.py``` provides the code to create the .h5 file from node table and edges table.
 
 ## 5-fold cross-validation of SynerGNet
+The ./5-fold cross-validation of SynerGNet/ directory holds both the trained model and prediction results for SynerGNet in the context of a 5-fold cross-validation.
 
+Execute the script SynerGNet_performance.py to replicate the SynerGNet performance table presented in the paper.
 ## Prediction using the trained model
 
 ## Train your own model
