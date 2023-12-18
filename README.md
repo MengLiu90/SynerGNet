@@ -40,8 +40,11 @@ Run ```python Train.py synergy_file_path h5py_dir_path``` where ```synergy_file_
 ## Synergy Datasets used in this paper
 We used three synergy datasets in this study:
 1. Original synergy dataset
+   
    The synergy data from AZ-DREAM challenge (https://www.synapse.org/#!Synapse:syn4231880/wiki/) 
 3. Augmented synergy dataset
+   
    Augmented synergy data generated from the AZ-DREAM challenge synergy data. The complete augmented data can be accessed through https://osf.io/kd9e7/.
 5. DrugCombDB synergy dataset
-   The synergy data from DrugCombDB (http://drugcombdb.denglab.org/main). This dataset is used as the validation set for the SynerGNet.
+   
+   The synergy data from DrugCombDB (http://drugcombdb.denglab.org/main). This dataset is used as the validation set for the SynerGNet. Accessible within the ```./Dataset/DrugCombDB/``` directory.
