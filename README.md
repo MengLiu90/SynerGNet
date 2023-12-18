@@ -23,11 +23,11 @@ The ```./5-fold cross-validation of SynerGNet/``` directory holds both the train
 
 Execute the script ```./5-fold cross-validation of SynerGNet/SynerGNet_performance.py``` to replicate the SynerGNet performance table presented in the paper.
 ## Prediction using the trained model
-Execute the script ```Prediction_using_trained_model.py``` to make predictions of drug synergy using the trained SynerGNet model.
+Execute the script ```SynerGNet_Prediction.py``` to make predictions of drug synergy using the trained SynerGNet model.
 
-Directly run ```python Prediction_using_trained_model.py``` will produce the prediction results of synergy instances from DrugCombDB, i.e., the validation dataset used in the paper.
+Directly run ```python SynerGNet_Prediction.py``` will produce the prediction results of synergy instances from DrugCombDB, i.e., the validation dataset used in the paper.
 
 To make prediction of your own synergy data, put the .h5 format graphs created from your synergy dataset in ```/Dataset/DrugCombDB/h5py_synergy_data/``` directory, then excute the python script. 
 
-Note: two types of trained SynerGNet are provided in ```./Trained_models/``` directory: model trained on augmented data ```./Trained_models/SynerGNet_trained_on_aug.pth``` and model trained on original data ```./Trained_models/SynerGNet_trained_on_org.pth```. Which model to be used for prediction can be simply chosen within the ```Prediction_using_trained_model.py``` code by unquoting the selected model. One can try and see the difference of prediction performance of these two models. 
+Note: two types of trained SynerGNet are provided in ```./Trained_models/``` directory: model trained on augmented data ```./Trained_models/SynerGNet_trained_on_aug.pth``` and model trained on original data ```./Trained_models/SynerGNet_trained_on_org.pth```. Which model to be used for prediction can be simply chosen within the ```SynerGNet_Prediction.py``` code by unquoting the selected model. One can try and see the difference of prediction performance of these two models. 
 ## Train your own model
