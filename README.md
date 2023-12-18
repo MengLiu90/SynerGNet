@@ -23,5 +23,9 @@ The ```./5-fold cross-validation of SynerGNet/``` directory holds both the train
 
 Execute the script ```./5-fold cross-validation of SynerGNet/SynerGNet_performance.py``` to replicate the SynerGNet performance table presented in the paper.
 ## Prediction using the trained model
+Execute the script ```Prediction_using_trained_model.py``` to make predictions of drug synergy using the trained SynerGNet model.
 
+Directly run ```python Prediction_using_trained_model.py``` will produce the prediction results of synergy instances from DrugCombDB. 
+
+To make prediction of your own synergy data, put the .h5 format graphs created from your synergy dataset in ```/Dataset/DrugCombDB/h5py_synergy_data/``` directory, then excute the python script. 
 ## Train your own model
