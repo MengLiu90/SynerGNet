@@ -18,9 +18,9 @@ for i in range(len(df_instances)):
     dr1 = cell_drug_list[1]
     dr2 = cell_drug_list[2]
 
-    df_nodeTable = pd.read_csv(f'Input_data/NodeTables/NodeTable_{cell}_{dr1}_{dr2}.csv')
+    df_nodeTable = pd.read_csv(f'NodeTables/NodeTable_{cell}_{dr1}_{dr2}.csv')
 
-    df_edgeTable = pd.read_csv(f'Input_data/EdgeTables/EdgeTable_{cell}_{dr1}_{dr2}.csv')
+    df_edgeTable = pd.read_csv(f'EdgeTables/EdgeTable_{cell}_{dr1}_{dr2}.csv')
     G = nx.from_pandas_edgelist(df_edgeTable, 'Prot1', 'Prot2', 'Score')
     G_node_ids = list(G.nodes)
     df_nodeTable = df_nodeTable.set_index('Nodes')
