@@ -31,3 +31,9 @@ To make prediction of your own synergy data, put the .h5 format graphs created f
 
 Note: two types of trained SynerGNet are provided in ```./Trained_models/``` directory: model trained on augmented data ```./Trained_models/SynerGNet_trained_on_aug.pth``` and model trained on original data ```./Trained_models/SynerGNet_trained_on_org.pth```. Which model to be used for prediction can be simply chosen within the ```SynerGNet_Prediction.py``` code by unquoting the selected model. One can try and see the difference of prediction performance of these two models. 
 ## Train your own model
+### Prepare your data:
+1. Prepare a .csv file containing synergy instances, following the format exemplified in ```./Dataset/DrugCombDB/drugcombs_synergy_data.csv```.
+2. Transform your graph data into the .h5 format. Refer to the examples of the .h5 files located in ```./Dataset/DrugCombDB/h5py_synergy_data/ for guidance```.
+### Code execution
+Run ```python Train.py synergy_file_path h5py_dir_path``` where ```synergy_file_path``` represents the file path to the .csv file containing synergy instances, while ```h5py_dir_path``` denotes the directory path where the .h5 format graphs are stored.
+ 
