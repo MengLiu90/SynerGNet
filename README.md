@@ -33,7 +33,7 @@ Note: two types of trained SynerGNet are provided in ```./Trained_models/``` dir
 ## Train your own model
 ### Prepare your data:
 1. Prepare a .csv file containing synergy instances, following the format exemplified in ```./Dataset/DrugCombDB/drugcombs_synergy_data.csv```.
-2. Transform your graph data into the .h5 format. Refer to the examples of the .h5 files located in ```./Dataset/DrugCombDB/h5py_synergy_data/ for guidance```.
+2. Transform your graph data into the .h5 format. Refer to the examples of the .h5 files located in ```./Dataset/DrugCombDB/h5py_synergy_data/``` for guidance.
 ### Code execution
 Run ```python Train.py synergy_file_path h5py_dir_path``` where ```synergy_file_path``` represents the file path to the .csv file containing synergy instances, while ```h5py_dir_path``` denotes the directory path where the .h5 format graphs are stored.
  
