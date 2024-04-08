@@ -1,5 +1,5 @@
 # SynerGNet
-SynerGNet is a machine learning tool to predict synergy effects of anti-cancer drug combinations. Given the gene expression, copy number variation (CNV), mutaion types, and gene ontology (GO) terms of the cell lines and drug-protein association scores of the paired drugs, the model is able to predict whether the paried drugs are synergistic or antagnistic against the cancer cell line.
+[SynerGNet]([relative/path/to/new/page](https://www.mdpi.com/2218-273X/14/3/253))SynerGNet is a machine learning tool to predict synergy effects of anti-cancer drug combinations. Given the gene expression, copy number variation (CNV), mutaion types, and gene ontology (GO) terms of the cell lines and drug-protein association scores of the paired drugs, the model is able to predict whether the paried drugs are synergistic or antagnistic against the cancer cell line.
 ## Dependencies
 1. pytorch 1.10.0
 2. torch_geometric 2.0.2
